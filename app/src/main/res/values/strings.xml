@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My12306</string>
+    <string name="denglutis_user">请输入用户名</string>
+    <string name="denglutis_pass">请输入密码</string>
+    <string name="denglu">登录</string>
+    <string name="wangji">忘记密码？</string>
+    <string name="autologin">自动登录</string>
+    <string name="outlogin">退出登录</string>
+    <string name="title_activity_wodelianxiren">我的联系人</string>
+    <string name="title_activity_dispaly_wdlxr">我的联系人</string>
+</resources>

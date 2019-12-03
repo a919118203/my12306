@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="5D"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        android:gravity="center"
+        android:id="@+id/tv_checi" />
+
+    <ImageView
+        android:id="@+id/image_shang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tv_checi"
+        android:layout_toRightOf="@+id/tv_checi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/flg_shi" />
+
+    <ImageView
+        android:id="@+id/image_xia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_shang"
+        android:layout_alignLeft="@+id/image_shang"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/flg_guo" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_startt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/image_xia"
+        android:layout_toRightOf="@+id/image_xia"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="07:05" />
+
+    <TextView
+        android:id="@+id/tv_endt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_xia"
+        android:layout_below="@+id/tv_startt"
+        android:layout_marginLeft="5dp"
+        android:text="11:55(0日)" />
+
+    <TextView
+        android:id="@+id/tv_zw1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_startt"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="特等座:4" />
+
+    <TextView
+        android:id="@+id/tv_zw4"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_startt"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="特等座:4" />
+
+    <TextView
+        android:id="@+id/tv_zw2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_startt"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="特等座:4" />
+
+    <TextView
+        android:id="@+id/tv_zw3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_startt"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="特等座:4" />
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv_checi"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/forward_25"/>
+</RelativeLayout>

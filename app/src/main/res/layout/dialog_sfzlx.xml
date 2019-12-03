@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/radiogroup_sfzlx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/shenfenz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="身份证"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#b7b9ba"/>
+        <RadioButton
+            android:id="@+id/xueshengz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学生证"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#b7b9ba"/>
+
+        <RadioButton
+            android:id="@+id/junrenz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="军人证"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#b7b9ba"/>
+    </RadioGroup>
+</LinearLayout>

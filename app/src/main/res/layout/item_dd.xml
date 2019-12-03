@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/dd_ddh"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单：20143Yq"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/dd_zfqk"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未支付"
+        android:textColor="#f78c22"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/dd_cbh"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dd_ddh"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G108"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/riqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dd_cbh"
+        android:layout_marginLeft="30dp"
+        android:text="2014-7-21" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="70dp"
+        android:text="北京->大连 2人"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/zonge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/dd_zfqk"
+        android:layout_below="@+id/dd_zfqk"
+        android:layout_marginTop="25dp"
+        android:text="456.0"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</RelativeLayout>
